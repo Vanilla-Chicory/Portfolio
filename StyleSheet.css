@@ -1,0 +1,112 @@
+#navBar {
+    padding-top: 0px;
+    position: relative;
+    background-color: rgb(132, 221, 221);
+    border-radius: 15%;
+    border: 100px;
+    border-color: rgb(219, 148, 198);
+}
+
+#navBarImg {
+    max-width: 50px;
+}
+
+#navBarImg2 {
+    max-width: 50px;
+}
+
+#myPicture {
+    margin: 50px 0;
+}
+
+#aboutMeParaCol {
+    border-color: rgb(202, 36, 36);
+    border-width: 5px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aqua;
+    font-size: 100px;
+    position: fixed;
+    z-index: 1;
+}
+
+#card1 {
+    
+}
+
+.card {
+    width: 15rem;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    position: sticky;
+}
+
+.card-title {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width: 750px ) {
+    .nav-item {
+        margin: 30px 3px;
+    }
+
+    #navBarImg {
+        margin-right: 0rem;
+    }
+
+    #navBarImg2 {
+        margin-left: 0rem;
+    }
+}
+
+@media screen and (min-width: 751px ) {
+    .nav-item {
+        margin: 30px 3px;
+    }
+
+    #navBarImg {
+        margin-right: 3rem;
+    }
+
+    #navBarImg2 {
+        margin-left: 3rem;
+    }
+
+}
+
+@media screen and (min-width: 1001px ) {
+    .nav-item {
+        margin: 30px 3px;
+    }
+
+    #navBarImg {
+        margin-right: 10rem;
+    }
+
+    #navBarImg2 {
+        margin-left: 10rem;
+    }
+
+}
+
+@media screen and (min-width: 1400px) {
+
+    .nav-item {
+        margin: 30px 10px;
+        max-height: fit-content;
+    }
+
+    #navBarImg {
+        margin-right: 24rem;
+        max-width: 50px;
+    }
+    #navBarImg2 {
+        margin-left: 24rem;
+        max-width: 50px;
+    }
+
+    .card .btn {
+        display: none;
+    }
+}
